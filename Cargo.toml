@@ -1,0 +1,15 @@
+[package]
+name = "huedump"
+version = "0.1.2"
+authors = ["EvilRobotOverlord"]
+description = "A hex/binary/octal/decimal dump generator that colours all bytes with a different colour!"
+repository = "https://github.com/EvilRobotOverlord/huedump"
+readme = "README.md"
+keywords = ["hex-dumper", "colour"]
+categories = ["command-line-utilities"]
+license = "MIT"
+
+[dependencies]
+ansi_term = "0.11.0"
+hsl = "0.1.1"
+clap = "2.31.2"
